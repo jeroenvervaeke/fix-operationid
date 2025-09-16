@@ -1,0 +1,4 @@
+(import_spec
+  name: (package_identifier)* @name
+  path: (interpreted_string_literal) @path
+)

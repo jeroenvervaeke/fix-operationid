@@ -1,0 +1,10 @@
+(selector_expression
+	operand:  (selector_expression
+        operand:  (selector_expression
+          operand: (identifier) @store_name
+          field: (field_identifier) @store_property
+        )
+        field: (field_identifier) @tag
+    )
+	field: (field_identifier) @operation_id
+)

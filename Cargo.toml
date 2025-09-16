@@ -1,0 +1,18 @@
+[package]
+name = "fix-operationid"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.99"
+async-trait = "0.1.89"
+camino = "1.2.0"
+clap = { version = "4.5.47", features = ["derive"] }
+enum_dispatch = "0.3.13"
+futures = "0.3.31"
+openapiv3 = "2.2.0"
+serde = { version = "1.0.223", features = ["derive"] }
+serde_json = "1.0.145"
+tokio = { version = "1.47.1", features = ["full"] }
+tree-sitter = "0.25.9"
+tree-sitter-go = "0.25.0"

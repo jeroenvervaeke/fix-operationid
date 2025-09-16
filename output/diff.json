@@ -1,0 +1,1649 @@
+{
+  "entries": [
+    {
+      "tag": "X.509 Authentication",
+      "operation_id_before": "listDatabaseUserCertificates",
+      "operation_id_after": "listDatabaseUserCerts"
+    },
+    {
+      "tag": "X.509 Authentication",
+      "operation_id_before": "createDatabaseUserCertificate",
+      "operation_id_after": "createDatabaseUserCert"
+    },
+    {
+      "tag": "X.509 Authentication",
+      "operation_id_before": "disableCustomerManagedX509",
+      "operation_id_after": "disableSecurityCustomerX509"
+    },
+    {
+      "tag": "Third-Party Integrations",
+      "operation_id_before": "updateThirdPartyIntegration",
+      "operation_id_after": "updateGroupIntegration"
+    },
+    {
+      "tag": "Serverless Private Endpoints",
+      "operation_id_before": "listServerlessPrivateEndpoints",
+      "operation_id_after": "listServerlessPrivateEndpoint"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "updateProjectServiceAccount",
+      "operation_id_after": "updateGroupServiceAccount"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "updateTeamRoles",
+      "operation_id_after": "updateGroupTeam"
+    },
+    {
+      "tag": "Query Shape Insights",
+      "operation_id_before": "getGroupClusterQueryShapeInsightSummaries",
+      "operation_id_after": "listQueryShapeSummaries"
+    },
+    {
+      "tag": "Third-Party Integrations",
+      "operation_id_before": "listThirdPartyIntegrations",
+      "operation_id_after": "listGroupIntegrations"
+    },
+    {
+      "tag": "Root",
+      "operation_id_before": "returnAllControlPlaneIpAddresses",
+      "operation_id_after": "listControlPlaneAddresses"
+    },
+    {
+      "tag": "Query Shape Insights",
+      "operation_id_before": "getGroupClusterQueryShapeInsightDetails",
+      "operation_id_after": "getQueryShapeDetails"
+    },
+    {
+      "tag": "Push-Based Log Export",
+      "operation_id_before": "getPushBasedLogConfiguration",
+      "operation_id_after": "getLogExport"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "listProjectServiceAccounts",
+      "operation_id_after": "listGroupServiceAccounts"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "modifyStreamProcessor",
+      "operation_id_after": "updateStreamProcessor"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "removeProjectTeam",
+      "operation_id_after": "removeGroupTeam"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "updateProjectRoles",
+      "operation_id_after": "updateGroupUserRoles"
+    },
+    {
+      "tag": "Project IP Access List",
+      "operation_id_before": "getProjectIpList",
+      "operation_id_after": "getAccessListEntry"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "updateServiceAccount",
+      "operation_id_after": "updateOrgServiceAccount"
+    },
+    {
+      "tag": "Third-Party Integrations",
+      "operation_id_before": "getThirdPartyIntegration",
+      "operation_id_after": "getGroupIntegration"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "updateProjectInvitationById",
+      "operation_id_after": "updateInviteById"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProjectLtsVersions",
+      "operation_id_after": "getMongoDbVersions"
+    },
+    {
+      "tag": "Private Endpoint Services",
+      "operation_id_before": "getRegionalizedPrivateEndpointSetting",
+      "operation_id_after": "getRegionalEndpointMode"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProject",
+      "operation_id_after": "getGroup"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "listDiskPartitions",
+      "operation_id_after": "listProcessDisks"
+    },
+    {
+      "tag": "Push-Based Log Export",
+      "operation_id_before": "deletePushBasedLogConfiguration",
+      "operation_id_after": "deleteLogExport"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createProjectServiceAccount",
+      "operation_id_after": "createGroupServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "listProjectServiceAccountAccessList",
+      "operation_id_after": "listAccessList"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "getStreamInstance",
+      "operation_id_after": "getStreamWorkspace"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "getVpcPeeringConnections",
+      "operation_id_after": "listVpcPeeringConnections"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "createStreamInstanceWithSampleConnections",
+      "operation_id_after": "withStreamSampleConnections"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "listProjectTeams",
+      "operation_id_after": "listGroupTeams"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "updateProject",
+      "operation_id_after": "updateGroup"
+    },
+    {
+      "tag": "Project IP Access List",
+      "operation_id_before": "getProjectIpAccessListStatus",
+      "operation_id_after": "getAccessListStatus"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "updateApiKey",
+      "operation_id_after": "updateOrgApiKey"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "updateOrganizationInvitation",
+      "operation_id_after": "updateOrgInvites"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "deleteProject",
+      "operation_id_after": "deleteGroup"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "listServiceAccounts",
+      "operation_id_after": "listOrgServiceAccounts"
+    },
+    {
+      "tag": "Third-Party Integrations",
+      "operation_id_before": "deleteThirdPartyIntegration",
+      "operation_id_after": "deleteGroupIntegration"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "renameTeam",
+      "operation_id_after": "renameOrgTeam"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "setProjectLimit",
+      "operation_id_after": "setGroupLimit"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "listProjectLimits",
+      "operation_id_after": "listGroupLimits"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "getLegacyBackupRestoreJob",
+      "operation_id_after": "getClusterRestoreJob"
+    },
+    {
+      "tag": "Performance Advisor",
+      "operation_id_before": "enableSlowOperationThresholding",
+      "operation_id_after": "enableManagedSlowMs"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "getPeeringConnection",
+      "operation_id_after": "getGroupPeer"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "updatePeeringConnection",
+      "operation_id_after": "updateGroupPeer"
+    },
+    {
+      "tag": "Private Endpoint Services",
+      "operation_id_before": "toggleRegionalizedPrivateEndpointSetting",
+      "operation_id_after": "toggleRegionalEndpointMode"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "listDataFederationPrivateEndpoints",
+      "operation_id_after": "listPrivateEndpointIds"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getAtlasProcess",
+      "operation_id_after": "getGroupProcess"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "listAtlasProcesses",
+      "operation_id_after": "listGroupProcesses"
+    },
+    {
+      "tag": "Performance Advisor",
+      "operation_id_before": "listSlowQueries",
+      "operation_id_after": "listSlowQueryLogs"
+    },
+    {
+      "tag": "Push-Based Log Export",
+      "operation_id_before": "createPushBasedLogConfiguration",
+      "operation_id_after": "createLogExport"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getCollStatsLatencyNamespaceClusterMeasurements",
+      "operation_id_after": "listCollStatMeasurements"
+    },
+    {
+      "tag": "Push-Based Log Export",
+      "operation_id_before": "updatePushBasedLogConfiguration",
+      "operation_id_after": "updateLogExport"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "getProjectServiceAccount",
+      "operation_id_after": "getGroupServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "addProjectServiceAccount",
+      "operation_id_after": "inviteGroupServiceAccount"
+    },
+    {
+      "tag": "Shared-Tier Restore Jobs",
+      "operation_id_before": "getSharedClusterBackupRestoreJob",
+      "operation_id_after": "getBackupTenantRestore"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "deleteStreamInstance",
+      "operation_id_after": "deleteStreamWorkspace"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "getActiveVpcPeeringConnections",
+      "operation_id_after": "listActivePeeringConnections"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "listGroupStreamsTransitGatewayInvitations",
+      "operation_id_after": "listTransitGatewayInvitations"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "createGroupStreamsTransitGatewayRoute",
+      "operation_id_after": "createTransitGatewayRoute"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "updateStreamInstance",
+      "operation_id_after": "updateStreamWorkspace"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "addAllTeamsToProject",
+      "operation_id_after": "addGroupTeams"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "getProjectTeam",
+      "operation_id_after": "getGroupTeam"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "listProjectUsers",
+      "operation_id_after": "listGroupUsers"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "migrateProjectToAnotherOrg",
+      "operation_id_after": "migrateGroup"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "listOrganizations",
+      "operation_id_after": "listOrgs"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "listApiKeys",
+      "operation_id_after": "listOrgApiKeys"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "listApiKeyAccessListsEntries",
+      "operation_id_after": "listOrgAccessEntries"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "getApiKeyAccessList",
+      "operation_id_after": "getOrgAccessEntry"
+    },
+    {
+      "tag": "Invoices",
+      "operation_id_before": "getCostExplorerQueryProcess",
+      "operation_id_after": "getCostExplorerUsage"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "listOrganizationInvitations",
+      "operation_id_after": "listOrgInvites"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "getOrganizationInvitation",
+      "operation_id_after": "getOrgInvite"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "updateOrganizationInvitationById",
+      "operation_id_after": "updateOrgInviteById"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createServiceAccount",
+      "operation_id_after": "createOrgServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "listServiceAccountAccessList",
+      "operation_id_after": "listOrgAccessList"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "listServiceAccountProjects",
+      "operation_id_after": "getServiceAccountGroups"
+    },
+    {
+      "tag": "Third-Party Integrations",
+      "operation_id_before": "createThirdPartyIntegration",
+      "operation_id_after": "createGroupIntegration"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "getTeamById",
+      "operation_id_after": "getOrgTeam"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "removeTeamUser",
+      "operation_id_after": "removeUserFromTeam"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "updateOrganizationUser",
+      "operation_id_after": "updateOrgUser"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "returnAllIpAddresses",
+      "operation_id_after": "getGroupIpAddresses"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "deleteProjectLimit",
+      "operation_id_after": "deleteGroupLimit"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProjectLimit",
+      "operation_id_after": "getGroupLimit"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "validateMigration",
+      "operation_id_after": "validateLiveMigrations"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "upgradeSharedCluster",
+      "operation_id_after": "upgradeTenantUpgrade"
+    },
+    {
+      "tag": "Performance Advisor",
+      "operation_id_before": "disableSlowOperationThresholding",
+      "operation_id_after": "disableManagedSlowMs"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "listPeeringConnections",
+      "operation_id_after": "listGroupPeers"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "listBackupExportJobs",
+      "operation_id_after": "listBackupExports"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "deletePeeringConnection",
+      "operation_id_after": "deleteGroupPeer"
+    },
+    {
+      "tag": "Data Lake Pipelines",
+      "operation_id_before": "deletePipelineRunDataset",
+      "operation_id_after": "deletePipelineRun"
+    },
+    {
+      "tag": "Data Lake Pipelines",
+      "operation_id_before": "triggerSnapshotIngestion",
+      "operation_id_after": "triggerPipeline"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getBackupExportJob",
+      "operation_id_after": "getBackupExport"
+    },
+    {
+      "tag": "Private Endpoint Services",
+      "operation_id_before": "listPrivateEndpointServices",
+      "operation_id_after": "listPrivateEndpointService"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "createDataFederationPrivateEndpoint",
+      "operation_id_after": "createPrivateEndpointId"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "getDataFederationPrivateEndpoint",
+      "operation_id_after": "getPrivateEndpointId"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "getLegacySnapshotSchedule",
+      "operation_id_after": "getClusterSnapshotSchedule"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "updateLegacySnapshotSchedule",
+      "operation_id_after": "updateClusterSnapshotSchedule"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "listDiskMeasurements",
+      "operation_id_after": "getProcessDisk"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getHostMeasurements",
+      "operation_id_after": "getProcessMeasurements"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "deleteLegacySnapshot",
+      "operation_id_after": "deleteClusterSnapshot"
+    },
+    {
+      "tag": "Performance Advisor",
+      "operation_id_before": "listSlowQueryNamespaces",
+      "operation_id_after": "listPerformanceAdvisorNamespaces"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "addUserToProject",
+      "operation_id_after": "addGroupUser"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "getLegacySnapshot",
+      "operation_id_after": "getClusterSnapshot"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "listServerlessBackupRestoreJobs",
+      "operation_id_after": "listServerlessRestoreJobs"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getCollStatsLatencyNamespacesForCluster",
+      "operation_id_after": "getClusterNamespaces"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "revokeMongoDbEmployeeAccess",
+      "operation_id_after": "revokeMongoEmployeeAccess"
+    },
+    {
+      "tag": "Project IP Access List",
+      "operation_id_before": "listProjectIpAccessLists",
+      "operation_id_after": "listAccessListEntries"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "createProjectApiKey",
+      "operation_id_after": "createGroupApiKey"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteProjectServiceAccount",
+      "operation_id_after": "deleteGroupServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createProjectServiceAccountSecret",
+      "operation_id_after": "createGroupSecret"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteProjectServiceAccountSecret",
+      "operation_id_after": "deleteGroupSecret"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "createProject",
+      "operation_id_after": "createGroup"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "updateProjectSettings",
+      "operation_id_after": "updateGroupSettings"
+    },
+    {
+      "tag": "Shared-Tier Snapshots",
+      "operation_id_before": "getSharedClusterBackup",
+      "operation_id_after": "getBackupTenantSnapshot"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "createStreamInstance",
+      "operation_id_after": "createStreamWorkspace"
+    },
+    {
+      "tag": "Shared-Tier Restore Jobs",
+      "operation_id_before": "createSharedClusterBackupRestoreJob",
+      "operation_id_after": "createBackupTenantRestore"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "listStreamProcessors",
+      "operation_id_after": "getStreamProcessors"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "listStreamInstances",
+      "operation_id_after": "listStreamWorkspaces"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "getGroupStreamsTransitGatewayInvitation",
+      "operation_id_after": "getTransitGatewayInvitation"
+    },
+    {
+      "tag": "Shared-Tier Restore Jobs",
+      "operation_id_before": "listSharedClusterBackupRestoreJobs",
+      "operation_id_after": "listBackupTenantRestores"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "acceptTransitGatewayResourcesShare",
+      "operation_id_after": "acceptTransitGatewayInvitations"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "deleteGroupStreamsTransitGatewayRoute",
+      "operation_id_after": "deleteTransitGatewayRoute"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "listGroupStreamsTransitGatewayRoutes",
+      "operation_id_after": "listTransitGatewayRoutes"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "listLegacyBackupCheckpoints",
+      "operation_id_after": "listClusterBackupCheckpoints"
+    },
+    {
+      "tag": "LDAP Configuration",
+      "operation_id_before": "saveLdapConfiguration",
+      "operation_id_after": "updateUserSecurity"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "getLegacyBackupCheckpoint",
+      "operation_id_after": "getClusterBackupCheckpoint"
+    },
+    {
+      "tag": "LDAP Configuration",
+      "operation_id_before": "verifyLdapConfiguration",
+      "operation_id_after": "verifyUserSecurityLdap"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "createOneDataFederationQueryLimit",
+      "operation_id_after": "setDataFederationLimit"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "getProjectUser",
+      "operation_id_after": "getGroupUser"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "addProjectRole",
+      "operation_id_after": "addGroupUserRole"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "removeProjectRole",
+      "operation_id_after": "removeGroupUserRole"
+    },
+    {
+      "tag": "OpenAPI",
+      "operation_id_before": "getOpenApiInfo",
+      "operation_id_after": "getOpenapiInfo"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "deleteOrganization",
+      "operation_id_after": "deleteOrg"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "getOrganization",
+      "operation_id_after": "getOrg"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "createApiKey",
+      "operation_id_after": "createOrgApiKey"
+    },
+    {
+      "tag": "Events",
+      "operation_id_before": "listProjectEvents",
+      "operation_id_after": "listGroupEvents"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "getApiKey",
+      "operation_id_after": "getOrgApiKey"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "createApiKeyAccessList",
+      "operation_id_after": "createOrgAccessEntry"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "deleteApiKeyAccessListEntry",
+      "operation_id_after": "deleteAccessEntry"
+    },
+    {
+      "tag": "Events",
+      "operation_id_before": "listOrganizationEvents",
+      "operation_id_after": "listOrgEvents"
+    },
+    {
+      "tag": "Flex Restore Jobs",
+      "operation_id_before": "listFlexBackupRestoreJobs",
+      "operation_id_after": "listFlexRestoreJobs"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "listOrganizationProjects",
+      "operation_id_after": "getOrgGroups"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "deleteOrganizationInvitation",
+      "operation_id_after": "deleteOrgInvite"
+    },
+    {
+      "tag": "Global Clusters",
+      "operation_id_before": "getManagedNamespace",
+      "operation_id_after": "getClusterGlobalWrites"
+    },
+    {
+      "tag": "Invoices",
+      "operation_id_before": "listPendingInvoices",
+      "operation_id_after": "listInvoicePending"
+    },
+    {
+      "tag": "Flex Snapshots",
+      "operation_id_before": "listFlexBackups",
+      "operation_id_after": "listFlexBackupSnapshots"
+    },
+    {
+      "tag": "Invoices",
+      "operation_id_before": "queryLineItemsFromSingleInvoice",
+      "operation_id_after": "searchInvoiceLineItems"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getMeasurements",
+      "operation_id_after": "listMeasurements"
+    },
+    {
+      "tag": "Resource Policies",
+      "operation_id_before": "validateAtlasResourcePolicy",
+      "operation_id_after": "validateResourcePolicies"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteServiceAccount",
+      "operation_id_after": "deleteOrgServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "getServiceAccount",
+      "operation_id_after": "getOrgServiceAccount"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteServiceAccountAccessListEntry",
+      "operation_id_after": "deleteOrgAccessEntry"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteServiceAccountSecret",
+      "operation_id_after": "deleteOrgSecret"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "updateOrganizationSettings",
+      "operation_id_after": "updateOrgSettings"
+    },
+    {
+      "tag": "Test",
+      "operation_id_before": "versionedExample",
+      "operation_id_after": "getExampleInfo"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "updateProjectInvitation",
+      "operation_id_after": "updateGroupInvites"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "deleteTeam",
+      "operation_id_after": "deleteOrgTeam"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "deleteProjectInvitation",
+      "operation_id_after": "deleteGroupInvite"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "createProjectInvitation",
+      "operation_id_after": "createGroupInvite"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "createOrganizationUser",
+      "operation_id_after": "createOrgUser"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "removeOrganizationUser",
+      "operation_id_after": "removeOrgUser"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "updateOrganizationRoles",
+      "operation_id_after": "updateOrgUserRoles"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProjectInvitation",
+      "operation_id_after": "getGroupInvite"
+    },
+    {
+      "tag": "OpenAPI",
+      "operation_id_before": "getApiVersions",
+      "operation_id_after": "listOpenapiVersions"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "createLegacyBackupRestoreJob",
+      "operation_id_after": "createClusterRestoreJob"
+    },
+    {
+      "tag": "Federated Authentication",
+      "operation_id_before": "deleteFederationApp",
+      "operation_id_after": "deleteFederationSetting"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "createPushMigration",
+      "operation_id_after": "createGroupLiveMigration"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "getAlertConfiguration",
+      "operation_id_after": "getAlertConfig"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "getValidationStatus",
+      "operation_id_after": "getMigrationValidateStatus"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "deleteAtlasSearchDeployment",
+      "operation_id_after": "deleteClusterSearchDeployment"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "getPushMigration",
+      "operation_id_after": "getGroupLiveMigration"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "getAtlasSearchDeployment",
+      "operation_id_after": "getClusterSearchDeployment"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "upgradeSharedClusterToServerless",
+      "operation_id_after": "upgradeClusterToServerless"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "updateAtlasSearchDeployment",
+      "operation_id_after": "updateClusterSearchDeployment"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "createPeeringConnection",
+      "operation_id_after": "createGroupPeer"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "toggleAlertConfiguration",
+      "operation_id_after": "toggleAlertConfig"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "listAtlasSearchIndexesCluster",
+      "operation_id_after": "listClusterSearchIndexes"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "createAtlasSearchDeployment",
+      "operation_id_after": "createClusterSearchDeployment"
+    },
+    {
+      "tag": "Data Lake Pipelines",
+      "operation_id_before": "listPipelineSchedules",
+      "operation_id_after": "getAvailablePipelineSchedules"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "createAtlasSearchIndex",
+      "operation_id_after": "createClusterSearchIndex"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "createBackupExportJob",
+      "operation_id_after": "createBackupExport"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "listAtlasSearchIndexes",
+      "operation_id_after": "listSearchIndex"
+    },
+    {
+      "tag": "Data Lake Pipelines",
+      "operation_id_before": "listPipelineSnapshots",
+      "operation_id_after": "getAvailablePipelineSnapshots"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "updateAlertConfiguration",
+      "operation_id_after": "updateAlertConfig"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "getAtlasSearchIndexByName",
+      "operation_id_after": "getIndexByName"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "deleteAtlasSearchIndexByName",
+      "operation_id_after": "deleteIndexByName"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "verifyConnectViaPeeringOnlyModeForOneProject",
+      "operation_id_after": "verifyPrivateIpMode"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "updateAtlasSearchIndexByName",
+      "operation_id_after": "updateIndexByName"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "deleteAllBackupSchedules",
+      "operation_id_after": "deleteClusterBackupSchedule"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "deleteAtlasSearchIndex",
+      "operation_id_after": "deleteClusterSearchIndex"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "deleteDataFederationPrivateEndpoint",
+      "operation_id_after": "deletePrivateEndpointId"
+    },
+    {
+      "tag": "Alerts",
+      "operation_id_before": "listAlertsByAlertConfigurationId",
+      "operation_id_after": "getAlertConfigAlerts"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "updateAtlasSearchIndex",
+      "operation_id_after": "updateClusterSearchIndex"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "getAtlasSearchIndex",
+      "operation_id_after": "getClusterSearchIndex"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getCollStatsLatencyNamespacesForHost",
+      "operation_id_after": "getProcessNamespaces"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "listReplicaSetBackups",
+      "operation_id_after": "listBackupSnapshots"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "listClustersForAllProjects",
+      "operation_id_after": "listClusterDetails"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "takeSnapshot",
+      "operation_id_after": "takeSnapshots"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getDiskMeasurements",
+      "operation_id_after": "getProcessDiskMeasurements"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "listAlertConfigurationsByAlertId",
+      "operation_id_after": "getAlertConfigs"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getCollStatsLatencyNamespaceHostMeasurements",
+      "operation_id_after": "listProcessMeasurements"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getShardedClusterBackup",
+      "operation_id_after": "getBackupShardedCluster"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "updateLegacySnapshotRetention",
+      "operation_id_after": "updateClusterSnapshot"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "deleteShardedClusterBackup",
+      "operation_id_after": "deleteBackupShardedCluster"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "listLegacySnapshots",
+      "operation_id_after": "listClusterSnapshots"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "loadSampleDataset",
+      "operation_id_after": "requestSampleDatasetLoad"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "getSampleDatasetLoadStatus",
+      "operation_id_after": "getSampleDatasetLoad"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "listShardedClusterBackups",
+      "operation_id_after": "listBackupShardedClusters"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "createServerlessBackupRestoreJob",
+      "operation_id_after": "createServerlessRestoreJob"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getServerlessBackupRestoreJob",
+      "operation_id_after": "getServerlessRestoreJob"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "listServerlessBackups",
+      "operation_id_after": "listServerlessBackupSnapshots"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "deleteReplicaSetBackup",
+      "operation_id_after": "deleteClusterBackupSnapshot"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getServerlessBackup",
+      "operation_id_after": "getServerlessBackupSnapshot"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "grantMongoDbEmployeeAccess",
+      "operation_id_after": "grantMongoEmployeeAccess"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "listProjectApiKeys",
+      "operation_id_after": "listGroupApiKeys"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getReplicaSetBackup",
+      "operation_id_after": "getClusterBackupSnapshot"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getHostLogs",
+      "operation_id_after": "downloadClusterLog"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getCollStatsLatencyNamespaceMetrics",
+      "operation_id_after": "listCollStatMetrics"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createProjectServiceAccountAccessList",
+      "operation_id_after": "createAccessList"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "updateSnapshotRetention",
+      "operation_id_after": "updateBackupSnapshot"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "listPeeringContainerByCloudProvider",
+      "operation_id_after": "listGroupContainers"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "createPeeringContainer",
+      "operation_id_after": "createGroupContainer"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "deleteProjectServiceAccountAccessListEntry",
+      "operation_id_after": "deleteGroupAccessEntry"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "listPeeringContainers",
+      "operation_id_after": "listGroupContainerAll"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "removeProjectApiKey",
+      "operation_id_after": "removeGroupApiKey"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "deletePeeringContainer",
+      "operation_id_after": "deleteGroupContainer"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProjectSettings",
+      "operation_id_after": "getGroupSettings"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "getPeeringContainer",
+      "operation_id_after": "getGroupContainer"
+    },
+    {
+      "tag": "Project IP Access List",
+      "operation_id_before": "createProjectIpAccessList",
+      "operation_id_after": "createAccessListEntry"
+    },
+    {
+      "tag": "Network Peering",
+      "operation_id_before": "updatePeeringContainer",
+      "operation_id_after": "updateGroupContainer"
+    },
+    {
+      "tag": "Shared-Tier Snapshots",
+      "operation_id_before": "listSharedClusterBackups",
+      "operation_id_after": "listClusterBackupSnapshots"
+    },
+    {
+      "tag": "Custom Database Roles",
+      "operation_id_before": "listCustomDatabaseRoles",
+      "operation_id_after": "listCustomDbRoles"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "addProjectApiKey",
+      "operation_id_after": "addGroupApiKey"
+    },
+    {
+      "tag": "Custom Database Roles",
+      "operation_id_before": "createCustomDatabaseRole",
+      "operation_id_after": "createCustomDbRole"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "downloadStreamTenantAuditLogs",
+      "operation_id_after": "downloadAuditLogs"
+    },
+    {
+      "tag": "Custom Database Roles",
+      "operation_id_before": "deleteCustomDatabaseRole",
+      "operation_id_after": "deleteCustomDbRole"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "listProjects",
+      "operation_id_after": "listGroups"
+    },
+    {
+      "tag": "Custom Database Roles",
+      "operation_id_before": "getCustomDatabaseRole",
+      "operation_id_after": "getCustomDbRole"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "deleteGroupStreamsTransitGatewayInvitation",
+      "operation_id_after": "deleteTransitGatewayInvitation"
+    },
+    {
+      "tag": "Auditing",
+      "operation_id_before": "getAuditingConfiguration",
+      "operation_id_after": "getGroupAuditLog"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "listFederatedDatabases",
+      "operation_id_after": "listDataFederation"
+    },
+    {
+      "tag": "Custom Database Roles",
+      "operation_id_before": "updateCustomDatabaseRole",
+      "operation_id_after": "updateCustomDbRole"
+    },
+    {
+      "tag": "Shared-Tier Snapshots",
+      "operation_id_before": "downloadSharedClusterBackup",
+      "operation_id_after": "downloadClusterBackupTenant"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "createFederatedDatabase",
+      "operation_id_after": "createDataFederation"
+    },
+    {
+      "tag": "Project IP Access List",
+      "operation_id_before": "deleteProjectIpAccessList",
+      "operation_id_after": "deleteAccessListEntry"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "deleteFederatedDatabase",
+      "operation_id_after": "deleteDataFederation"
+    },
+    {
+      "tag": "Streams",
+      "operation_id_before": "getGroupStreamsTransitGatewayRoute",
+      "operation_id_after": "getTransitGatewayRoute"
+    },
+    {
+      "tag": "Auditing",
+      "operation_id_before": "updateAuditingConfiguration",
+      "operation_id_after": "updateAuditLog"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "updateFederatedDatabase",
+      "operation_id_after": "updateDataFederation"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "getFederatedDatabase",
+      "operation_id_after": "getDataFederation"
+    },
+    {
+      "tag": "LDAP Configuration",
+      "operation_id_before": "getLdapConfiguration",
+      "operation_id_after": "getUserSecurity"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "returnFederatedDatabaseQueryLimits",
+      "operation_id_after": "listDataFederationLimits"
+    },
+    {
+      "tag": "LDAP Configuration",
+      "operation_id_before": "deleteLdapConfiguration",
+      "operation_id_after": "deleteLdapUserMapping"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "deleteOneDataFederationInstanceQueryLimit",
+      "operation_id_after": "deleteDataFederationLimit"
+    },
+    {
+      "tag": "LDAP Configuration",
+      "operation_id_before": "getLdapConfigurationStatus",
+      "operation_id_after": "getUserSecurityVerify"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "listAlertConfigurationMatchersFieldNames",
+      "operation_id_after": "listMatcherFieldNames"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "pinNamespacesPatch",
+      "operation_id_after": "updatePinnedNamespaces"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "getPinnedNamespaces",
+      "operation_id_after": "listPinnedNamespaces"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "addProjectUser",
+      "operation_id_after": "addGroupUsers"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "getDataProtectionSettings",
+      "operation_id_after": "getCompliancePolicy"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "returnFederatedDatabaseQueryLimit",
+      "operation_id_after": "getDataFederationLimit"
+    },
+    {
+      "tag": "Data Federation",
+      "operation_id_before": "downloadFederatedDatabaseQueryLogs",
+      "operation_id_after": "downloadFederationQueryLogs"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "removeProjectUser",
+      "operation_id_after": "removeGroupUser"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "disableDataProtectionSettings",
+      "operation_id_after": "disableCompliancePolicy"
+    },
+    {
+      "tag": "Collection Level Metrics",
+      "operation_id_before": "pinNamespacesPut",
+      "operation_id_after": "pinNamespaces"
+    },
+    {
+      "tag": "Access Tracking",
+      "operation_id_before": "listAccessLogsByClusterName",
+      "operation_id_after": "getAccessHistoryCluster"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "createOrganization",
+      "operation_id_after": "createOrg"
+    },
+    {
+      "tag": "Access Tracking",
+      "operation_id_before": "listAccessLogsByHostname",
+      "operation_id_after": "getAccessHistoryProcess"
+    },
+    {
+      "tag": "Encryption at Rest using Customer Key Management",
+      "operation_id_before": "getEncryptionAtRestPrivateEndpointsForCloudProvider",
+      "operation_id_after": "listRestPrivateEndpoints"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "createAtlasSearchIndexDeprecated",
+      "operation_id_after": "createClusterFtsIndex"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "updateOrganization",
+      "operation_id_after": "updateOrg"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "listAtlasSearchIndexesDeprecated",
+      "operation_id_after": "listClusterFtsIndex"
+    },
+    {
+      "tag": "Encryption at Rest using Customer Key Management",
+      "operation_id_before": "createEncryptionAtRestPrivateEndpoint",
+      "operation_id_after": "createRestPrivateEndpoint"
+    },
+    {
+      "tag": "Cloud Backups",
+      "operation_id_before": "updateDataProtectionSettings",
+      "operation_id_after": "updateCompliancePolicy"
+    },
+    {
+      "tag": "Programmatic API Keys",
+      "operation_id_before": "deleteApiKey",
+      "operation_id_after": "deleteOrgApiKey"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "deleteAtlasSearchIndexDeprecated",
+      "operation_id_after": "deleteClusterFtsIndex"
+    },
+    {
+      "tag": "Encryption at Rest using Customer Key Management",
+      "operation_id_before": "requestEncryptionAtRestPrivateEndpointDeletion",
+      "operation_id_after": "requestPrivateEndpointDeletion"
+    },
+    {
+      "tag": "Encryption at Rest using Customer Key Management",
+      "operation_id_before": "getEncryptionAtRestPrivateEndpoint",
+      "operation_id_after": "getRestPrivateEndpoint"
+    },
+    {
+      "tag": "Invoices",
+      "operation_id_before": "createCostExplorerQueryProcess",
+      "operation_id_after": "createCostExplorerProcess"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "getAtlasSearchIndexDeprecated",
+      "operation_id_after": "getClusterFtsIndex"
+    },
+    {
+      "tag": "Events",
+      "operation_id_before": "getProjectEvent",
+      "operation_id_after": "getGroupEvent"
+    },
+    {
+      "tag": "Charts Dashboards",
+      "operation_id_before": "importChartsDashboard",
+      "operation_id_after": "importChartsDashboards"
+    },
+    {
+      "tag": "Events",
+      "operation_id_before": "getOrganizationEvent",
+      "operation_id_after": "getOrgEvent"
+    },
+    {
+      "tag": "Atlas Search",
+      "operation_id_before": "updateAtlasSearchIndexDeprecated",
+      "operation_id_after": "updateClusterFtsIndex"
+    },
+    {
+      "tag": "Flex Restore Jobs",
+      "operation_id_before": "getFlexBackupRestoreJob",
+      "operation_id_after": "getFlexRestoreJob"
+    },
+    {
+      "tag": "Flex Restore Jobs",
+      "operation_id_before": "createFlexBackupRestoreJob",
+      "operation_id_after": "createFlexRestoreJob"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "createOrganizationInvitation",
+      "operation_id_after": "createOrgInvite"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "listAlertConfigurations",
+      "operation_id_after": "listAlertConfigs"
+    },
+    {
+      "tag": "Flex Snapshots",
+      "operation_id_before": "getFlexBackup",
+      "operation_id_after": "getFlexBackupSnapshot"
+    },
+    {
+      "tag": "Federated Authentication",
+      "operation_id_before": "revokeJwksFromIdentityProvider",
+      "operation_id_after": "revokeIdentityProviderJwks"
+    },
+    {
+      "tag": "Invoices",
+      "operation_id_before": "downloadInvoiceCsv",
+      "operation_id_after": "getInvoiceCsv"
+    },
+    {
+      "tag": "Cloud Provider Access",
+      "operation_id_before": "listCloudProviderAccessRoles",
+      "operation_id_after": "listCloudProviderAccess"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "listSourceProjects",
+      "operation_id_after": "listAvailableProjects"
+    },
+    {
+      "tag": "Cloud Migration Service",
+      "operation_id_before": "deleteLinkToken",
+      "operation_id_after": "deleteLinkTokens"
+    },
+    {
+      "tag": "Flex Clusters",
+      "operation_id_before": "upgradeFlexCluster",
+      "operation_id_after": "tenantUpgrade"
+    },
+    {
+      "tag": "Cloud Provider Access",
+      "operation_id_before": "createCloudProviderAccessRole",
+      "operation_id_after": "createCloudProviderAccess"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "getIndexMetrics",
+      "operation_id_after": "getIndexMeasurements"
+    },
+    {
+      "tag": "Global Clusters",
+      "operation_id_before": "deleteManagedNamespace",
+      "operation_id_after": "deleteManagedNamespaces"
+    },
+    {
+      "tag": "Resource Policies",
+      "operation_id_before": "getResourcesNonCompliant",
+      "operation_id_after": "getNonCompliantResources"
+    },
+    {
+      "tag": "Global Clusters",
+      "operation_id_before": "deleteAllCustomZoneMappings",
+      "operation_id_after": "deleteCustomZoneMapping"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "listIndexMetrics",
+      "operation_id_after": "listIndexMeasurements"
+    },
+    {
+      "tag": "Monitoring and Logs",
+      "operation_id_before": "listMetricTypes",
+      "operation_id_after": "listHostFtsMetrics"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createServiceAccountAccessList",
+      "operation_id_after": "createOrgAccessList"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "createAlertConfiguration",
+      "operation_id_after": "createAlertConfig"
+    },
+    {
+      "tag": "Performance Advisor",
+      "operation_id_before": "listDropIndexes",
+      "operation_id_after": "listDropIndexSuggestions"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "getClusterAdvancedConfiguration",
+      "operation_id_after": "getProcessArgs"
+    },
+    {
+      "tag": "Service Accounts",
+      "operation_id_before": "createServiceAccountSecret",
+      "operation_id_after": "createOrgSecret"
+    },
+    {
+      "tag": "Cloud Provider Access",
+      "operation_id_before": "getCloudProviderAccessRole",
+      "operation_id_after": "getCloudProviderAccess"
+    },
+    {
+      "tag": "Organizations",
+      "operation_id_before": "getOrganizationSettings",
+      "operation_id_after": "getOrgSettings"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "listOrganizationTeams",
+      "operation_id_after": "listOrgTeams"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "createTeam",
+      "operation_id_after": "createOrgTeam"
+    },
+    {
+      "tag": "Cloud Provider Access",
+      "operation_id_before": "deauthorizeCloudProviderAccessRole",
+      "operation_id_after": "deauthorizeProviderAccessRole"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "listProjectInvitations",
+      "operation_id_after": "listGroupInvites"
+    },
+    {
+      "tag": "Online Archive",
+      "operation_id_before": "downloadOnlineArchiveQueryLogs",
+      "operation_id_after": "downloadQueryLogs"
+    },
+    {
+      "tag": "Teams",
+      "operation_id_before": "addTeamUser",
+      "operation_id_after": "addTeamUsers"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "updateClusterAdvancedConfiguration",
+      "operation_id_after": "updateProcessArgs"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "addUserToTeam",
+      "operation_id_after": "addOrgTeamUser"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "removeUserFromTeam",
+      "operation_id_after": "removeOrgTeamUser"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "listOrganizationUsers",
+      "operation_id_after": "listOrgUsers"
+    },
+    {
+      "tag": "Alert Configurations",
+      "operation_id_before": "deleteAlertConfiguration",
+      "operation_id_after": "deleteAlertConfig"
+    },
+    {
+      "tag": "Legacy Backup",
+      "operation_id_before": "listLegacyBackupRestoreJobs",
+      "operation_id_after": "listClusterRestoreJobs"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "testFailover",
+      "operation_id_after": "restartPrimaries"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "getOrganizationUser",
+      "operation_id_after": "getOrgUser"
+    },
+    {
+      "tag": "Clusters",
+      "operation_id_before": "listCloudProviderRegions",
+      "operation_id_after": "listClusterProviderRegions"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "addOrganizationRole",
+      "operation_id_after": "addOrgRole"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "removeOrganizationRole",
+      "operation_id_after": "removeOrgRole"
+    },
+    {
+      "tag": "Projects",
+      "operation_id_before": "getProjectByName",
+      "operation_id_after": "getGroupByName"
+    },
+    {
+      "tag": "Cloud Provider Access",
+      "operation_id_before": "authorizeCloudProviderAccessRole",
+      "operation_id_after": "authorizeProviderAccessRole"
+    },
+    {
+      "tag": "MongoDB Cloud Users",
+      "operation_id_before": "getUserByUsername",
+      "operation_id_after": "getUserByName"
+    }
+  ]
+}

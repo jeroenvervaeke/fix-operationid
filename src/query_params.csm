@@ -1,0 +1,4 @@
+(qualified_type
+    package: (package_identifier) @package
+    name: (type_identifier) @type
+)
